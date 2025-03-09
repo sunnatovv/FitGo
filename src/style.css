@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Russo One", sans-serif;
+}
+#home {
+  background-image: url("/public/vector.png");
+  z-index: 1;
+  size: 100%;
+
+  background-repeat: round;
+}
+
+.kachok {
+  z-index: 21;
+  background-image: url("/public/mainkachok.jpeg");
+  height: 850px;
+  width: 700px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  clip-path: inset(0px 0px 80px 0px);
+  position: absolute; /* Elementni o'ng tomonga joylashtirish uchun */
+  right: 0; /* O'ng tomonga joylashtirish */
+  margin-top: -395px;
+}
+.kachokcha {
+  position: relative;
+}
+
+.heroBg {
+  z-index: 22;
+  height: 400px;
+  width: 100%;
+  background-image: url("/public/herobg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: absolute; /* Elementni o'ng tomonga joylashtirish uchun */
+  bottom: -115px;
+}
+.bgtext {
+  z-index: -11;
+  width: 500px;
+  height: 250px;
+  background-image: url("/public/textbg.png");
+  background-repeat: no-repeat;
+  top: 140px;
+  left: 200px;
+  position: absolute;
+  /* top: 10px; */
+}
+
+.russoText {
+  font-family: "Inter", sans-serif;
+}
