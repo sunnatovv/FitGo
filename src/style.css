@@ -6,7 +6,7 @@ body {
   font-family: "Russo One", sans-serif;
 }
 #home {
-  background-image: url("/public/vector.png");
+  background-image: url("/vector.png");
   z-index: 1;
   size: 100%;
 
@@ -15,7 +15,7 @@ body {
 
 .kachok {
   z-index: 21;
-  background-image: url("/public/mainkachok.jpeg");
+  background-image: url("/mainkachok.jpeg");
   height: 850px;
   width: 700px;
   background-size: cover;
@@ -33,17 +33,19 @@ body {
   z-index: 22;
   height: 400px;
   width: 100%;
-  background-image: url("/public/herobg.png");
+  background-image: url("/herobg.png");
   background-size: cover;
   background-repeat: no-repeat;
   position: absolute; /* Elementni o'ng tomonga joylashtirish uchun */
   bottom: -115px;
+  background-position: center;
+
 }
 .bgtext {
   z-index: -11;
   width: 500px;
   height: 250px;
-  background-image: url("/public/textbg.png");
+  background-image: url("/textbg.png");
   background-repeat: no-repeat;
   top: 140px;
   left: 200px;
@@ -54,3 +56,15 @@ body {
 .russoText {
   font-family: "Inter", sans-serif;
 }
+
+
+.footerPhoto{
+  background-image: url('/footerphoto.png');
+  background-repeat: no-repeat;
+  height: 550px;
+   background-size: cover; /* Rasm to‘liq ekranga moslashadi */
+  background-position: center;
+  width: 100%;
+
+
+} 

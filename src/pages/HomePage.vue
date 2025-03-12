@@ -61,7 +61,7 @@
     <div class="heroBg"></div>
 
     <div class="absolute top-0 right-0 z-5 bg-[#063835]">
-      <img src="/POWER.png" alt="Power" class="w-[18vw] h-[125vh]" />
+      <img src="/POWER.png" alt="Power" class="w-[18vw] h-[1000px]" />
     </div>
     <!-- Hero Background (Pastda chiqishi uchun) -->
   </section>
@@ -118,18 +118,80 @@
 
   <!-- About section -->
 
-  <section
-    id="services"
-    class="h-screen flex items-center justify-center bg-gray-200"
-  >
-    <h2>Services Section</h2>
+  <!-- Programs Section -->
+  <section id="programs" class="h-[1200px] bg-[#1D1E22]">
+    <div class="container py-[100px]">
+      <img src="/programs.png" alt="" />
+      <div class="grid grid-cols-3 row-span-2 py-8">
+        <div class="col-span-2">
+          <h2 class="text-[75px] text-white uppercase">
+            Our Ultimate <br />Health Program
+          </h2>
+        </div>
+        <div class="col-span-1 mt-[85px]">
+          <p class="text-[#D3D3D3] text-[18px] font-medium">
+            Whether you want to lose weight, build strength, improve
+            flexibility, or simply stay active, FitGo offers a variety of
+            expert-designed programs to suit your needs
+          </p>
+        </div>
+      </div>
+
+      <div class="grid grid-cols-3 gap-6 py-8">
+        <div class="bg-[#292B30] h-[300px] rounded-xl"></div>
+        <div class="bg-[#292B30] h-[300px] rounded-xl col-span-2"></div>
+        <div class="bg-[#292B30] h-[300px] rounded-xl"></div>
+        <div class="bg-[#292B30] h-[300px] rounded-xl"></div>
+        <div class="bg-[#292B30] h-[300px] rounded-xl"></div>
+      </div>
+    </div>
   </section>
+  <!-- Programs Section -->
+
+  <!-- Services section -->
+  <section id="services" class="h-[1200px] bg-[#F5F5F5]">
+    <div class="container">
+      <h2>Services Section</h2>
+    </div>
+  </section>
+  <!-- Services section -->
+  <!--Highlight section-->
+  <section id="services" class="h-[1150px] bg-[#F5F5F5]">
+    <div class="container py-[80px]">
+      <img src="/highlights.png" alt="" />
+
+      <div class="py-[35px]">
+        <h2 class="text-[75px] text-[#0C2E68] uppercase">
+          highlights of health success history
+        </h2>
+      </div>
+
+      <div class="grid grid-cols-5 grid-rows-3 gap-6 py-6">
+        <div class="col-span-5 row-span-3 rounded-xl bg-[#292B30] h-[430px]"></div>
+        <div class="col-span-1 row-span-1 rounded-xl bg-[#292B30] h-[200px]"></div>
+        <div class="col-span-1 row-span-1 rounded-xl bg-[#292B30] h-[200px]"></div>
+        <div class="col-span-1 row-span-1 rounded-xl bg-[#292B30] h-[200px]"></div>
+        <div class="col-span-1 row-span-1 rounded-xl bg-[#292B30] h-[200px]"></div>
+        <div class="col-span-1 row-span-1 rounded-xl bg-[#292B30] h-[200px]"></div>
+      </div>
+    </div>
+  </section>
+  <!-- Highlight section -->
 
   <section
     id="contact"
     class="h-screen flex items-center justify-center bg-gray-300"
   >
     <h2>Contact Section</h2>
+  </section>
+
+  <section >
+    <div class="footerPhoto flex items-center justify-center">
+      <div class="w-[600px] text-center">
+        <h3 class="uppercase text-white text-[88px] py-2">Join Our community</h3>
+        <button class="text-white py-5 mt-2 px-6 rounded-full bg-[#FE4F31]">Get Started Now</button>
+      </div>
+    </div>
   </section>
 </template>
 
